@@ -1,0 +1,129 @@
+# ============================================
+# .gitignore - Projeto Spotify MPI Analyzer
+# ============================================
+
+# --- Executáveis do Projeto ---
+spotify_analyzer
+spotify_compact
+app_improved
+
+# --- Arquivos Compilados C ---
+*.o
+*.out
+*.exe
+*.elf
+*.ko
+*.obj
+
+# --- Arquivos de Debug ---
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gch
+*.pch
+
+# --- Bibliotecas ---
+*.a
+*.lib
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# --- Arquivos de Link ---
+*.ilk
+*.map
+*.exp
+
+# --- Arquivos Gerados pelo Programa ---
+resultados_analise_*.txt
+performance_results.txt
+*.log
+
+# --- Arquivos Temporários ---
+*~
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Python (scripts auxiliares) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+myenv/
+venv/
+.venv/
+.env
+*.egg-info/
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+.project
+.cproject
+.settings/
+
+# --- Arquivos de Sistema ---
+.directory
+desktop.ini
+ehthumbs.db
+
+# --- Dados CSV (descomentar para não versionar) ---
+# Se o CSV é muito grande, descomente as linhas abaixo:
+# *.csv
+# !spotify_millsongdata_novo.csv  # mantém o principal
+
+# --- Backups ---
+*.bak
+*.backup
+*~
+*.orig
+
+# --- Arquivos de Teste e Debug ---
+teste
+test_*
+debug_*
+app_test*
+*.test
+
+# --- Compressão ---
+# *.zip
+# *.tar
+# *.tar.gz
+# *.rar
+# *.7z
+# Descomente acima se não quiser versionar compactados
+# Mas mantenha o archive.zip se for importante
+
+# --- MPI específico ---
+*.rank.*
+mpi_hostfile
+hostfile
+
+# --- Documentação Gerada ---
+html/
+latex/
+doxygen/
+*.pdf
+# !PROJETO_COMPLETO.pdf  # mantém PDFs importantes
+
+# --- Core dumps ---
+core
+core.*
+vgcore.*
+
+# --- Valgrind ---
+*.valgrind
+valgrind-*.log
+
+# --- Outros ---
+.cache/
+*.lock
