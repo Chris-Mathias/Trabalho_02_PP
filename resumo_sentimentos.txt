@@ -1,8 +1,0 @@
-Análise de Sentimentos das Músicas
-
-Total de músicas analisadas: 300
-
-Contagem por sentimento:
-  Positiva: 185 (61.67%)
-  Neutra: 1 (0.33%)
-  Negativa: 114 (38.00%)
